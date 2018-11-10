@@ -33,7 +33,7 @@ public class TimeEntry {
         return time;
     }
 
-    public void setTime(int value) {
+    public void setTime(final int value) {
         this.time = value;
     }
 
